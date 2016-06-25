@@ -3,6 +3,53 @@ body {
   font-size: 18px;
 }
 
+
+.nav-btn {
+  float:right;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin-top: 3px;
+  background-color: #FFF;
+
+}
+
+
+.main-nav {
+  clear: both;
+  padding: .5em 1em .5em 1em;
+  color:#f5f9ff;
+  //display: block;
+  margin: 0 auto;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav  li {
+  //
+//  display:list-item;
+  /*display: block;*/
+  margin-left: .5em
+}
+.main-nav a {
+//  text-align: center;
+  //display: block;;
+  color:#dacfff;
+  padding:1em;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+.main-nav a:hover {
+  color:#87949e;
+  /*border: solid 5px hotpink;*/
+}
+
 .wrapper {
   overflow: hidden;
   padding: 0 1.5em;
@@ -152,6 +199,14 @@ form > input[type="submit"]:focus {
 @media screen and (min-width: 48em) {
   body {
     background: #f5f9ff;
+  }
+  .main-nav{
+    display: inline;
+
+  }
+  .main-nav li {
+
+    float:left;
   }
 
   .form-input {
